@@ -6,6 +6,10 @@
     <title>Badwords</title>
 </head>
 <body>
-    
+<form action="badwords.php" method="GET">
+        <input type="text" placeholder="testo" name="testo"><br>
+        <input type="text" placeholder="censura" name="censura"><br>
+        <button>Censura</button>
+</form>
 </body>
 </html>
